@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Womazing</title>
+    <meta name="description" content="Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.">
+	<meta name="keywords" content="магазин, магазин одежды, мода, новые поступления сезона">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- OG Tags -->
+	<meta property="og:title" content="Womazing">
+	<meta property="og:description" content="Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="Womazing">
+	<!-- Styling -->
+	<meta name="theme-color" content="#F1EADC">
+	<link rel="apple-touch-icon" href="#">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+	<!-- CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+   
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="nav">
+            <div class="container container_flex">
+                <a href="#" class="logo"></a>
+                <nav class="menu ">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html">
+                            Главная
+                            </a>
+                         </li>
+                        <li class="menu__item menu__item_active">
+                            <a href="shop.html">
+                                Магазин
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html">
+                                О бренде
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html">
+                            Контакты
+                             </a>
+                         </li>
+                    </ul>
+                </nav>
+                <div class="telephone">
+                    <a href="#" class="call"></a>
+                    <div class="overlay" id="overlay"></div>
+                        <div class="wrapper__madal" id="wrapper__madal">
+                            <img class="close" src="img/Close.png" alt="">
+                            <div class="wrapper__madal__info">
+                                <h3 class="wrapper__modal__title">Заказать обратный звонок</h3>
+                                <form action="#" class="form-cover form-book form-modal js-form" id="form-modal">
+                                    <input type="text" class="form-book__input" name = "name" placeholder="Имя" required>
+                                    <input type="email" class="form-book__input" name = "email" placeholder="Email" required>
+                                    <input type="tel" class="form-book__input" name = "tel" placeholder="Телефон" required>
+                                    <button type="submit" class="btn select-btn modal-btn " data-submit>Заказать звонок</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="message-for-user" id="message-for-user">
+                            <h3 class="message-for-user__text">
+                                Отлично! Мы скоро вам перезвоним.
+                            </h3>
+                            <button type="button" class="message-for-user__close-btn btn" id="message-for-user__close-btn">
+                                Закрыть
+                            </button>
+                        </div>
+                        <div class="burgre__mune order-3">
+                            <div class="mobile__menu">
+                                <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed ml-auto"><span class="slicknav_menutxt">Меню</span></a>
+                            </div>
+                            <nav class="burger"> 
+                                <ul id="burger__navigation">
+                                    <li class=" burger__item">
+                                        <a href="index.html">
+                                        Главная
+                                        </a>
+                                     </li>
+                                    <li class="burger__item">
+                                        <a href="shop.html">
+                                            Магазин
+                                        </a>
+                                    </li>
+                                    <li class="burger__item">
+                                        <a href="about.html">
+                                            О бренде
+                                        </a>
+                                    </li>
+                                    <li class="burger__item">
+                                        <a href="contact.html">
+                                        Контакты
+                                         </a>
+                                     </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="head__tel">
+                            <a class="tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+                        </div>
+                    
+                </div>
+                <a href="bascet.html" class="basket"></a>
+               
+            </div>
+        </div>        
+    </header> 
+    <section class="shop" id="shop">
+        <div class="container">
+            <h1 class="shop__title all__title">
+                Магазин
+            </h1>
+            <div class="wrapper__shop-nav all-nav">
+                <a href="index.html" class="wrapper__shop-nav__link all__link">Главная</a>
+                <span class="dash">—</span>
+                <p class="wrapper__shop-nav__text all__nav__text">Магазин</p>
+            </div>
+        </div>
+    </section> 
+    <section class="categories-shop" id="categories-shop">
+        <div class="container">
+            <div class="categories-shop__button">
+                <nav>                                                        
+                    <div class="nav-tabs" id="nav-tab">
+                        <button type="button" class="nav-item nav-link nav-link_active">Все</button>
+                        <button type="button" class="nav-item nav-link">Пальто</button>
+                        <button type="button" class="nav-item nav-link">Свитшоты</button>
+                        <button type="button" class="nav-item nav-link">Кардиганы</button>
+                        <button type="button" class="nav-item nav-link">Толстовки</button>
+                    </div>
+                </nav>
+            </div>
+            <div class="product">
+                <p class="product__text">
+                    Показано: <span class="product__digits"> 9 </span> из <span class="product__digits"> 12 </span> товаров
+                </p>
+            </div>
+            <div class="goods">
+                <div class="collection__wrap show show_active">
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href="product.html"><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection__wrap show">
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (3).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (4).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (5).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (3).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто USA
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (4).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (5).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (3).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто USA
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (4).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/Фото товара (5).png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Пальто Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection__wrap show">
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection__wrap show">
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection__wrap show">
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div> 
+                    <div class="collection__info">
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product0.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Футболка USA
+                            </p>
+                            <span class="collection__price collection__price__old ">$229</span>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product1.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Купальник Glow
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                        <div class="collection__img">
+                            <div class="collection__pic">
+                                <img class="collection__imgas" src="img/product2.png" alt="">
+                                <a class="collection__overlay" href=""><img class="arrow-right" src="img/arrow-right.png" alt=""></a>
+                            </div>
+                            <p class="collection__text">
+                                Свитшот Sweet Shot
+                            </p>
+                            <span class="collection__price">$129</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="product">
+                <p class="product__text">
+                    Показано: <span class="product__digits"> 9 </span> из <span class="product__digits"> 12 </span> товаров
+                </p>
+            </div>
+            <div class="pages">
+                <ul class="pages__list">
+                    <li class="pages__item">
+                        <button class="pages__digits_btn pages__digits_btn_activ" type="button">1</button>
+                    </li>
+                    <li class="pages__item">
+                        <button class="pages__digits_btn" type="button">2</button>
+                    </li>
+                </ul>
+                <div class="pages__arrow">
+                    <button class="pages__arrow__btn">
+                        <img src="img/arrow-btn.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+       
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content__wrapper">
+                    <a href="#" class="footer-logo logo"></a>
+                    <div class="footer-content__wrap">
+                        <span class="footer-content__wrap__rights">© Все права защищены</span>
+                        <div class="footer-content__wrap__policy">
+                            <a href="#" class="footer-content__wrap__policy-link">
+                                Политика конфиденциальности
+                            </a>
+                        </div>   
+                            <div class="footer-content__wrap__offer">
+                                <a href="#" class="footer-content__wrap__offer-link">
+                                    Публичная оферта
+                                </a>
+                            </div>
+                    </div>
+                </div>
+                <div class="footer__menu">
+                    <nav class="footer__menu__wrap">
+                        <ul class="footer__menu__wrap__list">
+                            <li class="footer__menu__wrap__item">
+                                <a href="index.html">
+                                Главная
+                                </a>
+                             </li>
+                             <li class="footer__menu__wrap__item shope menu__item_active">
+                                <a href="shop.html">
+                                    Магазин
+                                </a>
+                                <div class="footer__categories">
+                                    <ul class="footer__categories__item">
+                                        <li class="footer__categories__list">
+                                            <a href="#">Пальто</a>
+                                        </li>
+                                        <li class="footer__categories__list">
+                                            <a href="#">Свитшоты</a>
+                                        </li>
+                                        <li class="footer__categories__list">
+                                            <a href="#">Кардиганы</a>
+                                        </li>
+                                        <li class="footer__categories__list">
+                                            <a href="#">Толстовки</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="footer__menu__wrap__item">
+                                <a href="about.html">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="footer__menu__wrap__item">
+                                <a href="contact.html">
+                                Контакты
+                                 </a>
+                             </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__telephone">
+                        <a class="tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+                    </div>
+                    <div class="footer__mail">
+                        <a href="mailto:hello@womazing.com">
+                            hello@womazing.com
+                        </a>
+                    </div>
+                    <ul class="footer__contacts__messenger">
+                        <li class="footer__contacts__messenger__list">
+                            <!--noindex-->
+                            <a href="https://www.instagram.com/" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/instagram (1) 1.svg" alt="">
+                            </a>
+                            <!--/noindex-->                           
+                        </li>
+                        <li class="footer__contacts__messenger__list">
+                            <!--noindex-->
+                            <a href="https://www.facebook.com" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/facebook (1) 1.svg" alt="">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                        <li class="footer__contacts__messenger__list">
+                            <!--noindex-->
+                            <a href="https://www.twitter.com" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/twitter (1) 1.svg" alt="">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                    </ul>
+                    <div class="footer__img">
+                        <img src="img/visa-mastercard 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Womazing</title>
+    <meta name="description" content="Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.">
+	<meta name="keywords" content="магазин, магазин одежды, мода, новые поступления сезона">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- OG Tags -->
+	<meta property="og:title" content="Womazing">
+	<meta property="og:description" content="Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="Womazing">
+	<!-- Styling -->
+	<meta name="theme-color" content="#F1EADC">
+	<link rel="apple-touch-icon" href="#">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+	<!-- CSS -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=bb796622-8cbd-4c46-9523-cca39e6bb597&lang=ru_RU" type="text/javascript">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+   
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="nav">
+            <div class="container container_flex">
+                <a href="#" class="logo"></a>
+                <nav class="menu ">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html">
+                            Главная
+                            </a>
+                         </li>
+                        <li class="menu__item">
+                            <a href="shop.html">
+                                Магазин
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html">
+                                О бренде
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html">
+                            Контакты
+                             </a>
+                         </li>
+                    </ul>
+                </nav>
+                <div class="telephone">
+                    <a href="#" class="call"></a>
+                    <div class="overlay" id="overlay"></div>
+                        <div class="wrapper__madal" id="wrapper__madal">
+                            <img class="close" src="img/Close.png" alt="">
+                            <div class="wrapper__madal__info">
+                                <h3 class="wrapper__modal__title">Заказать обратный звонок</h3>
+                                <form action="#" class="form-cover form-book form-modal js-form" id="form-modal">
+                                    <input type="text" class="form-book__input" name = "name" placeholder="Имя" required>
+                                    <input type="email" class="form-book__input" name = "email" placeholder="Email" required>
+                                    <input type="tel" class="form-book__input" name = "tel" placeholder="Телефон" required>
+                                    <button type="submit" class="btn select-btn modal-btn " data-submit>Заказать звонок</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="message-for-user" id="message-for-user">
+                            <h3 class="message-for-user__text">
+                                Отлично! Мы скоро вам перезвоним.
+                            </h3>
+                            <button type="button" class="message-for-user__close-btn btn" id="message-for-user__close-btn">
+                                Закрыть
+                            </button>
+                        </div>
+                        <div class="burgre__mune order-3">
+                            <div class="mobile__menu">
+                                <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed ml-auto"><span class="slicknav_menutxt">Меню</span></a>
+                            </div>
+                            <nav class="burger"> 
+                                <ul id="burger__navigation">
+                                    <li class=" burger__item">
+                                        <a href="index.html">
+                                        Главная
+                                        </a>
+                                     </li>
+                                    <li class="burger__item">
+                                        <a href="shop.html">
+                                            Магазин
+                                        </a>
+                                    </li>
+                                    <li class="burger__item">
+                                        <a href="about.html">
+                                            О бренде
+                                        </a>
+                                    </li>
+                                    <li class="burger__item">
+                                        <a href="contact.html">
+                                        Контакты
+                                         </a>
+                                     </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="head__tel">
+                            <a class="tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+                        </div>
+                    
+                </div>
+                <a href="bascet.html" class="basket"></a>
+               
+            </div>
+        </div>    
+    </header> 
+    <section class="bascet-one" id="bascet-one">
+        <div class="container">
+            <h1 class="bascet-one__title all__title">
+                Корзина
+            </h1>
+            <div class="wrapper__bascet-one-nav all-nav">
+                <a href="index.html" class="wrapper__bascet-one-nav__link all__link">Главная</a>
+                <span class="dash">—</span>
+                <p class="wrapper__bascet-one-nav__text all__nav__text">Корзина</p>
+            </div>
+        </div>
+    </section> 
+    <section class="bascet-two">
+        <div class="container">
+            <div class="wrapper__bascet-two">
+                <form action="" class="bascet-two__form">
+                    <div class="information">
+                        <p class="information-text-product">
+                            Товар
+                        </p>
+                        <p class="information-text-price">
+                            Цена
+                        </p>
+                        <p class="information-text-quantity">
+                            Количество
+                        </p>
+                        <p class="information-text-total">
+                            Всего
+                        </p>
+                    </div>
+                    <div class="bascet-product">
+                        <button type="button" class="bascet-product__delete">
+                            <img class="bascet-product__delete__close" src="img/Close.png" alt="">
+                        </button>
+                        <a href="product.html" class="bascet__img">
+                            <img class="bascet__pic" src="img/product0.png" alt="">
+                        </a>
+                        <p class="bascet-product__name">
+                            Футболка USA
+                        </p>
+                        <span class="bascet-product__price">
+                            $129
+                        </span>
+                        <div class="bascet-product__number">
+                            <input type="number" step="1" min="1" max="20" name="quantity" value="1" class="bascet-product__info"/>
+                        </div>
+                    <span class="all__price">
+                        $129
+                    </span>
+                    </div>
+                    <div class="coupon__flex">
+                        <div class="coupon">
+                            <input type="text" class="coupon__item" name = "coupon" placeholder="Введите купон">
+                        </div>
+                        <button type="button" class="coupon__btn btn">
+                            Применить купон
+                        </button>
+                        <button type="button" class="bascet-update__btn btn">
+                            Обновить корзину
+                        </button>
+                    </div>
+                    <div class="result__one">
+                        <div class="result__two">
+                            <div class="result__wrapper">
+                                <p class="result__text">
+                                    Подытог:
+                                </p>
+                                <span class="result__price">
+                                    $129
+                                </span>
+                            </div>
+                                <div class="result__total">
+                                        <div class="result__total__wrap">
+                                            <h3 class="result__price__title">
+                                                Итого:
+                                            </h3>
+                                            <span class="result__price__info">
+                                                $129
+                                            </span>
+                                        </div>
+                                            <button type="button" class="result__button__btn btn">
+                                                Оформить заказ
+                                            </button>  
+                                </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+               
+            
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content__wrapper">
+                    <a href="#" class="footer-logo logo"></a>
+                    <div class="footer-content__wrap">
+                        <span class="footer-content__wrap__rights">© Все права защищены</span>
+                        <div class="footer-content__wrap__policy">
+                            <a href="#" class="footer-content__wrap__policy-link">
+                                Политика конфиденциальности
+                            </a>
+                        </div>   
+                            <div class="footer-content__wrap__offer">
+                                <a href="#" class="footer-content__wrap__offer-link">
+                                    Публичная оферта
+                                </a>
+                            </div>
+                    </div>
+                </div>
+                <div class="footer__menu">
+                    <nav class="footer__menu__wrap">
+                        <ul class="footer__menu__wrap__list">
+                            <li class="footer__menu__wrap__item">
+                                <a href="index.html">
+                                Главная
+                                </a>
+                             </li>
+                             <li class="footer__menu__wrap__item shope">
+                                <a href="shop.html">
+                                    Магазин
+                                </a>
+                                <div class="footer__categories">
+                                    <ul class="footer__categories__item">
+                                        <li class="footer__categories__list">
+                                            <a href="#">Пальто</a>
+                                        </li>
+                                        <li class="footer__categories__list">
+                                            <a href="#">Свитшоты</a>
+                                        </li>
+                                        <li class="footer__categories__list">
+                                            <a href="#">Кардиганы</a>
+                                        </li>
+                                        <li class="footer__categories__list">
+                                            <a href="#">Толстовки</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="footer__menu__wrap__item">
+                                <a href="#">
+                                    О бренде
+                                </a>
+                            </li>
+                            <li class="footer__menu__wrap__item">
+                                <a href="#">
+                                Контакты
+                                 </a>
+                             </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__telephone">
+                        <a class="tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+                    </div>
+                    <div class="footer__mail">
+                        <a href="mailto:hello@womazing.com">
+                            hello@womazing.com
+                        </a>
+                    </div>
+                    <ul class="footer__contacts__messenger">
+                        <li class="footer__contacts__messenger__list">
+                            <!--noindex-->
+                            <a href="https://www.instagram.com/" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/instagram (1) 1.svg" alt="">
+                            </a>
+                            <!--/noindex-->                           
+                        </li>
+                        <li class="footer__contacts__messenger__list">
+                            <!--noindex-->
+                            <a href="https://www.facebook.com" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/facebook (1) 1.svg" alt="">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                        <li class="footer__contacts__messenger__list">
+                            <!--noindex-->
+                            <a href="https://www.twitter.com" rel="nofollow noopener noreferrer" target="_blank">
+                                <img src="img/twitter (1) 1.svg" alt="">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                    </ul>
+                    <div class="footer__img">
+                        <img src="img/visa-mastercard 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
